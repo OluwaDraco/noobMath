@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/OluwaDraco/noobMath/issues"
   },
-  "homepage": "https://github.com/OluwaDraco/noobMath#readme"
+  "homepage": "https://github.com/OluwaDraco/noobMath#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
