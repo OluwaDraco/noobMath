@@ -1,27 +1,27 @@
 {
-  "name": "noobmath",
-  "version": "1.0.0",
-  "description": "A package that contains usefull math functions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OluwaDraco/noobMath.git"
-  },
-  "keywords": [
-    "math",
-    "first",
-    "function"
-  ],
-  "author": "Olushola Oludipe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OluwaDraco/noobMath/issues"
-  },
-  "homepage": "https://github.com/OluwaDraco/noobMath#readme",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+    "name": "noobmath",
+    "version": "1.0.0",
+    "description": "A package that contains usefull math functions",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OluwaDraco/noobMath.git"
+    },
+    "keywords": [
+        "math",
+        "first",
+        "function"
+    ],
+    "author": "Olushola Oludipe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/OluwaDraco/noobMath/issues"
+    },
+    "homepage": "https://github.com/OluwaDraco/noobMath#readme",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
 }
