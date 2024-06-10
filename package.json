@@ -23,5 +23,10 @@
     "homepage": "https://github.com/OluwaDraco/noobMath#readme",
     "devDependencies": {
         "jest": "^29.7.0"
+    },
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
     }
 }

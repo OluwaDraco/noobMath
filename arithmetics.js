@@ -48,6 +48,12 @@ function multiplication(...args) {
     }
     let product = 1;
     for (let arg of args) {
+        if (arg === 0) {
+            return 0;
+        }
+        if (typeof arg === "string") {
+            throw new Error(`"${arg}" is not an int`);
+        }
         product = product * arg;
     }
     return product;
