@@ -51,7 +51,7 @@ function multiplication(...args) {
         if (arg === 0) {
             return 0;
         }
-        if (typeof arg === "string") {
+        if (typeof arg !== "number") {
             throw new Error(`"${arg}" is not an int`);
         }
         product = product * arg;
